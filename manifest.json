@@ -3,7 +3,7 @@
   "description": "Mam sam zmieniać magazyn z M1 na M0 i odwrotnie",
   "version": "1.0",
   "permissions": [ 
-    "https://zooland.com.de/panel/orderd*", "tabs"],
+    "https://zooart6.yourtechnicaldomain.com/panel/orderd*", "tabs"],
   "manifest_version": 2, 
   "icons": {
     "16": "16.png",
@@ -18,7 +18,7 @@
   "content_scripts": [  
     {  
         "matches": [  
-          "https://zooland.com.de/panel/orderd*"
+          "https://zooart6.yourtechnicaldomain.com/panel/orderd*"
           ],  
        "js": ["m1_to_m0.js"]  
         }  
